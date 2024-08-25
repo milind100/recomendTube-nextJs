@@ -1,0 +1,40 @@
+Recomendo tube 
+
+1. DEsign and reference videos
+
+1.video playlist for indiavisual
+title:- Video Playlist Gallery Like Udemy and Skillshare | HTML CSS JavaScript
+link:- https://youtu.be/b5mGe608DZ4?si=y4GtAHTS3Zj0jNGo
+
+
+
+2. spotify clone
+figma:- https://www.figma.com/design/9fML2lUvmqe03wuTs7ggN6/Spotify-Desktop-App-Clone-(Community)?node-id=1-204&t=8fyI9UxYx9QDYaUt-0
+
+code :- https://drive.google.com/drive/folders/19BtT04EwnGydBFK30iX8wOFuAdLqKPuf
+
+
+
+3. e learning platform designs :-
+edupress full figma white design :- https://www.figma.com/design/ytRIeanWDi2G4qUlxkznMt/EduPress---UI-Kit-for-Education-%26-Online-Learning-(Community)?node-id=0-1&t=NgjmWVe8Y9e13OdL-0
+/// main figma edu press
+
+import full figma profile page  :- https://www.figma.com/design/C8LJfTEQX8i0LU4GvGNbOI/eLearning-Website-Design-Kit-(Community)?node-id=1-3016&t=AwqtNs1wvgQ4ZElt-0
+
+
+
+full figma edu press : -https://www.figma.com/design/GEh4HREWlwemE9EG35LVil/EduPress---UI-Kit-for-Education-%26-Online-Learning-(Community)?node-id=0-1&t=T98fqAY3nFX0b8GC-0
+
+
+
+dark website full figma :- https://www.figma.com/design/lr7SrrRA7vfc3gBQNhY6Ri/LMS-dark-(Community)?node-id=0-1&t=XdLYnMIPwabmb9Tp-0
+
+4. profile page design 
+https://www.figma.com/design/C8LJfTEQX8i0LU4GvGNbOI/eLearning-Website-Design-Kit-(Community)?node-id=0-1&t=AwqtNs1wvgQ4ZElt-0
+
+
+youtubefigma : - https://www.figma.com/design/aPi2GlUBiwNy5niQibB4ge/Create-a-Youtube-clone-with-Locofy.ai-and-Figma-(Community)?node-id=0-1&t=x2HZGcHs5no5RuMb-0
+
+
+
+https://www.figma.com/design/8nFIgor2BNnluIlcrtqvRt/E-Learning-Site-(Community)?node-id=0-1&t=Utlwujd1aOy7AsYP-0

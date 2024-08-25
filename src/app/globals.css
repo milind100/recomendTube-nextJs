@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #eff6ff;
+
+}
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  @apply hidden;
+}
+
+.no-spinner {
+  -moz-appearance: textfield; /* Firefox */
+}
