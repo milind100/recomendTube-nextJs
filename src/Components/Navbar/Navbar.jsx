@@ -28,7 +28,7 @@ const Navbar = ({ setExpandedSidebar }) => {
   ];
 
   return (
-    <div className="h-[60px] bg-white w-full  flex px-2 sm:px-[25px] items-center justify-between relative top-0 left-0 text-base ">
+    <div className="h-[60px] bg-white w-full  flex px-2 sm:px-[25px] items-center justify-between relative top-0 left-0 text-base z-50">
       {/* navbutton container  */}
 
       <LogoButton setExpandedSidebar={setExpandedSidebar} />

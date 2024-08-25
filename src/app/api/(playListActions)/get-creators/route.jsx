@@ -6,7 +6,7 @@ export async function GET() {
   try {
     await connectToDb();
 
-    const authors = await PlaylistModel.aggregate([
+    const pipeline = [
       {
         $group: {
           _id: "$authorUsername",
@@ -22,16 +22,15 @@ export async function GET() {
           playlistCount: 1,
         },
       },
-      //   {
-      //     $sort: { playlistCount: -1 }, // Optional: Sort authors by the number of playlists
-      //   },
-    ]);
+    ];
+
+    const authors = await PlaylistModel.aggregate(pipeline);
 
     return NextResponse.json(
       {
         message: "Authors fetched successfully",
         success: true,
-        data: authors,
+        data: [...authors],
       },
       { status: 200 }
     );

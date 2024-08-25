@@ -10,11 +10,11 @@ const LoginAuthCover = ({ message }) => {
   const router = useRouter();
 
   return (
-    <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center z-50">
+    <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center z-30">
       {/* hoverlay  */}
       <div className="modal-overlay absolute w-full h-full bg-gray-900 opacity-50" />
 
-      <div className="max-w-4xl mx-auto px-10 py-2 bg-white rounded-lg shadow-lg z-50">
+      <div className="max-w-4xl mx-auto px-10 py-2 bg-white rounded-lg shadow-lg z-30">
         <div>
           {/* <span className="bg-green-100 font-mono text-green-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
             Blank Slate Empty State

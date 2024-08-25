@@ -49,15 +49,15 @@ const VideoCard = ({
     }
   };
 
+  const handleLinkEdit = (e) => {
+    handleFieldEdit(e);
+    handleFetchTitle(e);
+  };
+
   const handlePaste = async () => {
     try {
       const clipText = await navigator.clipboard.readText();
-      editListItemField({
-        id,
-        field: "link",
-        value: clipText,
-        linkError: !formFieldsValidations("youtubeLink", clipText),
-      });
+      handleLinkEdit({ target: { name: "link", value: clipText } });
     } catch (err) {
       console.error("Failed to read clipboard contents: ", err);
     }
@@ -88,10 +88,7 @@ const VideoCard = ({
                 placeholder="Paste youtube video link here"
                 value={link}
                 helperText="Invalid Link"
-                onChange={(e) => {
-                  handleFieldEdit(e);
-                  handleFetchTitle(e);
-                }}
+                onChange={handleLinkEdit}
                 error={linkError}
                 inputClasses="text-xs px-2"
               />
