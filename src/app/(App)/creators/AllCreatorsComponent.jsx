@@ -69,10 +69,14 @@ const AllCreatorsComponent = () => {
                     <span className="text-red-600">@</span>
                     {creator?.authorUsername}
                   </h2>
-                  <p className="text-gray-500">{creator?.authorName}</p>
+                  <p className="text-gray-500 text-xs xsm:text-base m-auto">
+                    {creator?.authorName}
+                  </p>
                 </div>
               </div>
-              <p className="text-gray-500">{creator?.playlistCount} Playlist</p>
+              <p className="text-gray-500 text-xs xsm:text-base">
+                {creator?.playlistCount} Playlist
+              </p>
             </div>
           </Link>
         ))}

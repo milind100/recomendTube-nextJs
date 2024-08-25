@@ -13,8 +13,8 @@ const Creators = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-6 mx-auto">
-        <div className="flex flex-col text-center w-full mb-10">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+        <div className="flex flex-col text-center w-full xsm:mb-10">
+          <h1 className="sm:text-3xl xsm:text-2xl text-xl font-medium title-font xsm:mb-2 text-gray-900">
             Creators
           </h1>
         </div>
