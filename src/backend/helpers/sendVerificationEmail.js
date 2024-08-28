@@ -16,7 +16,7 @@ export async function sendVerificationEmail({
         : ForgotPassword({ username, otp: verifyToken });
 
     await resend.emails.send({
-      from: "Aeme <noreply@recomendtube.in>",
+      from: "RecomendTube.in <noreply@recomendtube.in>",
       to: email,
       subject: "Mystery Message Verification Code",
       react: template,
