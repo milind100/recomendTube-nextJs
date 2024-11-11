@@ -1,3 +1,4 @@
+import { getPlaylist } from "../../../../../Actions/getPlaylistbyID";
 import VideoPage from "./VideoPage";
 
 export const metadata = {
@@ -8,10 +9,15 @@ export const metadata = {
   author: "RecomendTube Team",
 };
 
-const Watch = () => {
+const Watch = async ({ params }) => {
+  let data = await getPlaylist(params?.playlistId);
+
+  // Ensure the data is JSON-serializable
+  data = JSON.parse(JSON.stringify(data));
+
   return (
     <div>
-      <VideoPage />
+      <VideoPage playlistData={data?.playlist} />
     </div>
   );
 };
